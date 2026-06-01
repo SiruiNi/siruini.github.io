@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | Katrina Ni</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="index.html#home">Sirui Ni</a>
+
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html#about" class="nav-link active">About Me</a>
+        <a href="exp.html" class="nav-link">Experience</a>
+        <a href="prj.html" class="nav-link">Project</a>
+        <a href="resume.html" class="nav-link">Resume</a>
+      </nav>
+
+      <div class="desktop-socials">
+        <a href="https://www.linkedin.com/in/katrina-sirui-ni-b00298332/" target="_blank" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:sni26@wisc.edu" aria-label="Email">
+          <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://github.com/SiruiNi" target="_blank" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+
+      <button class="mobile-menu-button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </header>
+
+    <div class="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu-top">
+        <a class="mobile-site-name" href="index.html#home">Sirui Ni</a>
+        <button class="mobile-close-button" aria-label="Close menu"><span></span><span></span></button>
+      </div>
+
+      <nav class="mobile-nav" aria-label="Mobile navigation">
+        <a href="index.html#about">About Me</a>
+        <a href="exp.html">Experience</a>
+        <a href="prj.html">Project</a>
+        <a href="resume.html">Resume</a>
+      </nav>
+
+      <div class="mobile-socials">
+        <a href="https://www.linkedin.com/in/katrina-sirui-ni-b00298332/" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:sni26@wisc.edu" aria-label="Email"><i class="fa-regular fa-envelope"></i></a>
+        <a href="https://github.com/SiruiNi" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+      </div>
+    </div>
+
+    <main>
+      <section id="home" class="hero-section section-a">
+        <div class="hero-inner">
+          <h1 class="hero-title">Hello! I'm Katrina (Sirui Ni)</h1>
+
+          <div class="hero-photo-wrap">
+            <img class="profile-photo" src="images/biormv.png" alt="Portrait of Katrina Ni" />
+          </div>
+
+          <div class="hero-copy">
+            <p class="hero-school-line">
+              Data Science &amp; Information Science <br />Senior
+              <a href="https://www.wisc.edu/" target="_blank" class="hero-school-link">
+                @ UW–Madison <img src="images/uwm.png" alt="UW-Madison logo" class="uw-logo" />
+              </a>
+            </p>
+
+            <p class="hero-focus1">
+              I focus on: <br />
+            </p>
+            <p class="hero-focus2">
+              Applied Data Science + UI/UX Design
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-divider" aria-hidden="true">
+          <svg viewBox="0 0 1200 95" preserveAspectRatio="none">
+            <polyline points="0,26 600,72 1200,26" />
+          </svg>
+        </div>
+
+        <div class="hero-bottom-mask" aria-hidden="true"></div>
+      </section>
+
+      <section id="about" class="about-section section-b about-animate-block">
+        <div class="about-card-new">
+          <h2>About Me</h2>
+          <p class="about-lead">I enjoy turning abstract ideas into something people can actually use.</p>
+
+          <div class="interest-row" aria-label="Interests">
+            <div class="interest-label">I’m interested in:</div>
+            <div class="interest-brace" aria-hidden="true">{</div>
+            <ul class="interest-list">
+              <li>Data Visualization</li>
+              <li>Website design</li>
+              <li>Human-centered technology</li>
+            </ul>
+          </div>
+
+          <section class="skills-part" aria-labelledby="skills-title">
+            <h3 id="skills-title">I learn best by building!</h3>
+            <p class="skills-subtitle">Here are some tools I'm most familiar with:</p>
+
+            <div class="skills-diagram" aria-label="Skills diagram">
+              <div class="skill-box skill-data">
+                <h4>Data &amp; Visualization</h4>
+                <p>Excel · pandas · ggplot2<br />matplotlib · Tableau</p>
+              </div>
+
+              <div class="skill-box skill-web">
+                <h4>Web Development</h4>
+                <p>HTML · CSS · JavaScript</p>
+              </div>
+
+              <div class="skill-circle skill-workflow">
+                <h4>Digital Workflow</h4>
+                <p>Microsoft 365<br />Google Workspace<br />SharePoint · Power<br />Automate · Forms</p>
+              </div>
+
+              <div class="skill-circle skill-core">
+                <h4>Programming &amp; Data</h4>
+                <p>Python · R · SQL · Java</p>
+              </div>
+
+              <div class="skill-circle skill-ai">
+                <h4>AI Learning</h4>
+                <p>ChatGPT · Cursor <br />Claude · Codex</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Katrina (Sirui) Ni</p>
+      <p>Thank you for getting to know me!</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

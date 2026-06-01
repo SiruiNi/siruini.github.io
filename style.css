@@ -1052,12 +1052,29 @@ ul li::before {
     margin-top: 0;
   }
 
+  .project-image {
+    height: auto;
+    aspect-ratio: auto;
+  }
+
+  .project-image img {
+    height: auto;
+    object-fit: contain;
+  }
+
   .hobby-section {
     width: calc(100% - 30px);
     padding: 36px 28px;
   }
 
   .hobby-carousel { grid-auto-columns: 100%; }
+
+  .hobby-card img {
+    height: auto;
+    max-height: 70vh;
+    object-fit: contain;
+  }
+
   .carousel-btn.prev { left: -28px; }
   .carousel-btn.next { right: -28px; }
 }
